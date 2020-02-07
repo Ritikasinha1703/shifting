@@ -6,6 +6,6 @@ try:
     o=list(original)
     print("the obtained string is")
     for i in o:
-        print(dict[i],end="").lower()
+        print(dict[i].lower(),end="")
 except:
     print("enter a valid string")
